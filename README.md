@@ -1,5 +1,5 @@
 # rand_cmap
-Creates a random colormap to be used together with matplotlib, useful for segmentation tasks. You may choose the first or last colors to be black. Also, two types of colormap can be generated, 'bright' and 'soft'. On both cases, the generated colors are restricted to never be too bright or too dark.
+Creates a custom random colormap to be used together with matplotlib, useful for segmentation tasks. You may choose the first or last colors to be black. Also, two types of colormap can be generated, 'bright' and 'soft'. On both cases, the generated colors are restricted to never be too bright or too dark.
 
 **keywords**: *python, ipython, matplotlib, plt, color map, random, colors, segmentation*
 
