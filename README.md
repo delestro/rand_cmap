@@ -10,5 +10,7 @@ param verbose: Prints the number of labels and shows the colormap. True or False
 return: colormap for matplotlib
 </pre>
 
-# Example:
+## Example:
+<code>
 new_cmap = memotrack.display.rand_cmap(100, type='bright', first_color_black=True, last_color_black=False, verbose=True)
+</code>
