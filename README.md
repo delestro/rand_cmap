@@ -1,14 +1,5 @@
 # rand_cmap
-Creates a random colormap to be used together with matplotlib. Useful for segmentation tasks
-
-<pre>
-param nlabels: Number of labels (size of colormap)
-param type: 'bright' for strong colors, 'soft' for pastel colors
-param first_color_black: Option to use first color as black, True or False
-param last_color_black: Option to use last color as black, True or False
-param verbose: Prints the number of labels and shows the colormap. True or False
-return: colormap for matplotlib
-</pre>
+Creates a random colormap to be used together with matplotlib, useful for segmentation tasks. You may choose the first or last colors to be black. Also, two types of colormap can be generated, 'bright' and 'soft'
 
 ## Example:
 <code>
