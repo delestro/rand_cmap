@@ -7,3 +7,9 @@ Creates a random colormap to be used together with matplotlib, useful for segmen
 Number of labels: 100
 
 ![alt tag](http://i.imgur.com/QO2hzOA.png)
+
+<code>new_cmap = rand_cmap(50, type='soft', first_color_black=False, last_color_black=True, verbose=True)</code>
+
+Number of labels: 50
+
+![alt tag](http://i.imgur.com/8CL9N0m.png)
