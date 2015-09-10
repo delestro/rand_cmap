@@ -12,5 +12,5 @@ return: colormap for matplotlib
 
 ## Example:
 <code>
-new_cmap = memotrack.display.rand_cmap(100, type='bright', first_color_black=True, last_color_black=False, verbose=True)
+new_cmap = rand_cmap(100, type='bright', first_color_black=True, last_color_black=False, verbose=True)
 </code>
