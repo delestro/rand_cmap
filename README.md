@@ -5,3 +5,5 @@ Creates a random colormap to be used together with matplotlib, useful for segmen
 <code>
 new_cmap = rand_cmap(100, type='bright', first_color_black=True, last_color_black=False, verbose=True)
 </code>
+
+![alt tag](http://i.imgur.com/QO2hzOA.png)
