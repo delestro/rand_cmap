@@ -5,6 +5,8 @@ Creates a random colormap to be used together with matplotlib, useful for segmen
 
 ### Bright colors
 
+Generating a colormap for 100 labels, with first as black
+
 <code>new_cmap = rand_cmap(100, type='bright', first_color_black=True, last_color_black=False, verbose=True)</code>
 
 Number of labels: 100
@@ -12,6 +14,8 @@ Number of labels: 100
 ![alt tag](http://i.imgur.com/QO2hzOA.png)
 
 ### Soft colors
+
+Generating a colormap for 50 labels, with last as black
 
 <code>new_cmap = rand_cmap(50, type='soft', first_color_black=False, last_color_black=True, verbose=True)</code>
 
