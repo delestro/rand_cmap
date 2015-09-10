@@ -9,7 +9,6 @@ Generating a colormap for 100 labels, with first as black
 
 <code>new_cmap = rand_cmap(100, type='bright', first_color_black=True, last_color_black=False, verbose=True)</code>
 
-Number of labels: 100
 
 ![alt tag](http://i.imgur.com/QO2hzOA.png)
 
@@ -18,7 +17,5 @@ Number of labels: 100
 Generating a colormap for 50 labels, with last as black
 
 <code>new_cmap = rand_cmap(50, type='soft', first_color_black=False, last_color_black=True, verbose=True)</code>
-
-Number of labels: 50
 
 ![alt tag](http://i.imgur.com/8CL9N0m.png)
