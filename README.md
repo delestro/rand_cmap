@@ -9,5 +9,4 @@ Creates a random colormap to be used together with matplotlib. Useful for segmen
    
 
 # Example:
-# Generate colormap
 new_cmap = memotrack.display.rand_cmap(100, type='bright', first_color_black=True, last_color_black=False, verbose=True)
